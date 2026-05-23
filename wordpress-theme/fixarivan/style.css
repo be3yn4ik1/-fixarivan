@@ -1,0 +1,26 @@
+/*
+Theme Name: FixariVan
+Theme URI: https://fixarivan.fi
+Author: FixariVan
+Author URI: https://fixarivan.fi
+Description: Профессиональный мобильный технический сервис для дома и бизнеса в Турку и окрестностях.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fixarivan
+Tags: business, service, responsive, tailwindcss
+*/
+
+/* ─── Tailwind base reset supplement ─── */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+
+/* ─── Custom shadows (used via inline style or extra class) ─── */
+.shadow-soft  { box-shadow: 0 2px 20px rgba(0,0,0,0.06); }
+.shadow-card  { box-shadow: 0 4px 24px rgba(0,0,0,0.08); }
+.shadow-lifted{ box-shadow: 0 8px 40px rgba(0,0,0,0.12); }
+
+/* ─── WordPress alignment helpers ─── */
+.alignwide  { max-width: 1200px; margin-left: auto; margin-right: auto; }
+.alignfull  { width: 100%; }
